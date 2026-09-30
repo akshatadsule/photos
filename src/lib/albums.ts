@@ -26,7 +26,7 @@ export type Album = Omit<AlbumMetadata, "photos"> & {
   photos: AlbumPhoto[];
 };
 
-const imageModules = import.meta.glob<ImageModule>("../images/**/*.webp", {
+const imageModules = import.meta.glob<ImageModule>("../images/**/*.{webp,WebP,WEBP,jpg,JPG,jpeg,JPEG,png,PNG}", {
   eager: true
 });
 
