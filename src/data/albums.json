@@ -5,15 +5,47 @@
       "title": "Bird Watching",
       "description": "All sorts of birds seen in the wild",
       "photos": [
-        { "src": "birds/flying-egret.webp", "alt": "A snowy egret taking off" },
-        { "src": "birds/hummingbird.webp", "alt": "A hummingbird caught mid-flight" },
-        { "src": "birds/egret-2.webp", "alt": "An egret amongst the bushes" },
-        { "src": "birds/avocet-1.webp", "alt": "An avocet standing in shallow water" },
-        { "src": "birds/egret-1.webp", "alt": "A white egret perched" },
-        { "src": "birds/egret-4.webp", "alt": "A white egret poised near the shoreline" },
-        { "src": "birds/egret-5.webp", "alt": "An egret against a marsh background" },
-        { "src": "birds/egret-6.webp", "alt": "An flying egret" },
-        { "src": "birds/hummingbird-2.webp", "alt": "A hummingbird caught mid-flight" }
+        {
+          "src": "birds/flying-egret.webp",
+          "alt": "A snowy egret taking off"
+        },
+        {
+          "src": "birds/hummingbird.webp",
+          "alt": "A hummingbird caught mid-flight"
+        },
+        {
+          "src": "birds/print-4.jpg",
+          "alt": "An Egret amongst vegetation",
+          "title": "An Egret amongst vegetation"
+        },
+        {
+          "src": "birds/egret-2.webp",
+          "alt": "An egret amongst the bushes"
+        },
+        {
+          "src": "birds/avocet-1.webp",
+          "alt": "An avocet standing in shallow water"
+        },
+        {
+          "src": "birds/egret-1.webp",
+          "alt": "A white egret perched"
+        },
+        {
+          "src": "birds/egret-4.webp",
+          "alt": "A white egret poised near the shoreline"
+        },
+        {
+          "src": "birds/egret-5.webp",
+          "alt": "An egret against a marsh background"
+        },
+        {
+          "src": "birds/egret-6.webp",
+          "alt": "An flying egret"
+        },
+        {
+          "src": "birds/hummingbird-2.webp",
+          "alt": "A hummingbird caught mid-flight"
+        }
       ]
     },
     {
@@ -21,15 +53,46 @@
       "title": "Yellowstone & The Tetons",
       "description": "Thermal color, landscapes, and wildlife from Yellowstone and Grand Teton national parks.",
       "photos": [
-        { "src": "yellowstone/jam-the-bear.webp", "alt": "A bear moving through vegetation" },
-        { "src": "yellowstone/grand-prismatic.webp", "alt": "Grand Prismatic Spring from above" },
-        { "src": "yellowstone/yellowstone-sunrise.webp", "alt": "Morning haze at Yellowstone"},
-        { "src": "yellowstone/lake-yellowstone.webp", "alt": "Lake Yellowstone beneath a broad sky" },
-        { "src": "yellowstone/yellow-stone-falls.webp", "alt": "Yellowstone Falls cutting through the canyon" },
-        { "src": "yellowstone/tetons-1.webp", "alt": "The Teton range rising over an open landscape" },
-        { "src": "yellowstone/tetons-3.webp", "alt": "A wide view of the Tetons in clean afternoon light" },
-        { "src": "yellowstone/tetons-4.webp", "alt": "Teton peaks with layered foreground terrain" },
-        { "src": "yellowstone/tetons-5.webp", "alt": "A rugged section of the Teton mountain range" }
+        {
+          "src": "yellowstone/jam-the-bear.webp",
+          "alt": "A bear moving through vegetation",
+          "title": "Jam the Bear, moving through vegetation"
+        },
+        {
+          "src": "yellowstone/print-3.jpg",
+          "alt": "Morning Haze at Lake Yellowstone",
+          "title": "Morning Haze at Lake Yellowstone"
+        },
+        {
+          "src": "yellowstone/grand-prismatic.webp",
+          "alt": "Grand Prismatic Spring from above",
+          "title": "Grand Prismatic Spring from above"
+        },
+        {
+          "src": "yellowstone/lake-yellowstone.webp",
+          "alt": "Lake Yellowstone beneath a broad sky",
+          "title": "Mid-day Mist at Lake Yellowstone"
+        },
+        {
+          "src": "yellowstone/print-2.jpg",
+          "alt": "Upper Falls of the Yellowstone River",
+          "title": "Upper Falls of the Yellowstone River"
+        },
+        {
+          "src": "yellowstone/tetons-1.webp",
+          "alt": "The Teton range rising over an open landscape",
+          "title": "The Teton range rising over an open landscape"
+        },
+        {
+          "src": "yellowstone/print-1.jpg",
+          "alt": "Grand Tetons",
+          "title": "Grand Tetons"
+        },
+        {
+          "src": "yellowstone/tetons-3.webp",
+          "alt": "A wide view of the Tetons in clean afternoon light",
+          "title": "A wide view of the Tetons in clean afternoon light"
+        }
       ]
     },
     {
@@ -37,11 +100,26 @@
       "title": "Jellyfish",
       "description": "Taken at the Monterrey Aquarium",
       "photos": [
-        { "src": "jellyfish/jellyfish-1.webp", "alt": "Jellyfish" },
-        { "src": "jellyfish/jellyfish-5.webp", "alt": "Jellyfish" },
-        { "src": "jellyfish/jellyfish-6.webp", "alt": "Jellyfish" },
-        { "src": "jellyfish/jellyfish-7.webp", "alt": "Jellyfish" },
-        { "src": "jellyfish/jellyfish-8.webp", "alt": "Jellyfish" }
+        {
+          "src": "jellyfish/jellyfish-1.webp",
+          "alt": "Jellyfish"
+        },
+        {
+          "src": "jellyfish/jellyfish-5.webp",
+          "alt": "Jellyfish"
+        },
+        {
+          "src": "jellyfish/jellyfish-6.webp",
+          "alt": "Jellyfish"
+        },
+        {
+          "src": "jellyfish/jellyfish-7.webp",
+          "alt": "Jellyfish"
+        },
+        {
+          "src": "jellyfish/jellyfish-8.webp",
+          "alt": "Jellyfish"
+        }
       ]
     },
     {
@@ -49,10 +127,22 @@
       "title": "Places",
       "description": "A small set of coastal and city scenes.",
       "photos": [
-        { "src": "places/cactus.webp", "alt": "Cactus at Joshua Tree" },
-        { "src": "places/rainier.webp", "alt": "Landscapes near the base of Mount Rainier" },
-        { "src": "places/pebble-beach.webp", "alt": "Pebble Beach coastline in soft light" },
-        { "src": "places/seattle.webp", "alt": "Seattle skyline" }
+        {
+          "src": "places/cactus.webp",
+          "alt": "Cactus at Joshua Tree"
+        },
+        {
+          "src": "places/rainier.webp",
+          "alt": "Landscapes near the base of Mount Rainier"
+        },
+        {
+          "src": "places/pebble-beach.webp",
+          "alt": "Pebble Beach coastline in soft light"
+        },
+        {
+          "src": "places/seattle.webp",
+          "alt": "Seattle skyline"
+        }
       ]
     }
   ]

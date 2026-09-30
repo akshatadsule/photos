@@ -24,3 +24,5 @@ pnpm-debug.log*
 .idea/
 
 .codex/
+# local editor build
+dist-editor/
