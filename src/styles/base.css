@@ -6,7 +6,8 @@
   --line: #111111;
   --surface: #e9e9e2;
   --outline: #111111;
-  --page-width: calc(100% - 18px);
+  --gutter: 10px;
+  --page-width: calc(100% - var(--gutter) * 2);
   --font: var(--font-manrope), Arial, sans-serif;
 }
 
@@ -31,15 +32,15 @@ a {
   color: inherit;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 700px) {
   :root {
-    --page-width: calc(100% - 36px);
+    --gutter: 18px;
   }
 }
 
 @media (min-width: 1440px) {
   :root {
-    --page-width: calc(100% - 58px);
+    --gutter: 28px;
   }
 }
 

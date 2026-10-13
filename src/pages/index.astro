@@ -23,26 +23,19 @@ import { albums } from "../lib/albums";
     padding: 12px 0 32px;
     display: flex;
     flex-direction: column;
-    gap: 3.5rem;
-  }
-
-  .album-index :global(.album-preview + .album-preview) {
-    margin-top: 28px;
+    gap: 2rem;
   }
 
   @media (min-width: 700px) {
     .album-index {
       padding: 28px 0 72px;
-    }
-
-    .album-index :global(.album-preview + .album-preview) {
-      margin-top: 54px;
+      gap: 2.5rem;
     }
   }
 
   @media (min-width: 1440px) {
-    .album-index :global(.album-preview + .album-preview) {
-      margin-top: 64px;
+    .album-index {
+      gap: 3rem;
     }
   }
 </style>

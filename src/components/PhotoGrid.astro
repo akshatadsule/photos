@@ -92,7 +92,7 @@ const imageSizes = (photo: AlbumPhoto) => {
 
 <style>
   .photo-grid {
-    --padding: 18px;
+    --padding: var(--gutter);
     --space: 18px;
     --min-height: 240px;
 
@@ -149,7 +149,6 @@ const imageSizes = (photo: AlbumPhoto) => {
 
   @media (max-width: 700px) {
     .photo-grid {
-      --padding: 10px;
       --space: 10px;
       --min-height: 160px;
     }
@@ -163,7 +162,6 @@ const imageSizes = (photo: AlbumPhoto) => {
 
   @media (min-width: 1440px) {
     .photo-grid {
-      --padding: 28px;
       --space: 28px;
       --min-height: 360px;
     }
