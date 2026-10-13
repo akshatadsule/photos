@@ -49,6 +49,37 @@
       ]
     },
     {
+      "slug": "sf",
+      "title": "San Francisco",
+      "description": "Views from the city and the bay",
+      "photos": [
+        {
+          "src": "sf/img-1540.jpg",
+          "alt": "The bay at Fisherman's Wharf",
+          "title": "The bay at Fisherman's Wharf"
+        },
+        {
+          "src": "sf/sf-3.jpg",
+          "alt": "Golden Gate Bridge seen at Marshall's Beach",
+          "title": "Golden Gate Bridge seen at Marshall's Beach"
+        },
+        {
+          "src": "sf/sf-2.jpg",
+          "alt": "Golden Gate Bridge seen at Marshall's Beach",
+          "title": "Golden Gate Bridge seen at Marshall's Beach"
+        },
+        {
+          "src": "sf/sf-1.jpg",
+          "alt": "Sunset at Marshall Beach"
+        },
+        {
+          "src": "sf/sf-4.jpg",
+          "alt": "View at Battery Spencer",
+          "title": "View at Battery Spencer"
+        }
+      ]
+    },
+    {
       "slug": "yellowstone",
       "title": "Yellowstone & The Tetons",
       "description": "Thermal color, landscapes, and wildlife from Yellowstone and Grand Teton national parks.",
