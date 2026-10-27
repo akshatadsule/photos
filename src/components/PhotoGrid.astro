@@ -21,7 +21,10 @@ const {
 } = Astro.props;
 
 // Width descriptors let small screens avoid downloading desktop-size thumbnails.
-const imageWidths = [320, 480, 640, 960, 1280, 1920];
+const imageWidths = [320, 480, 640, 960, 1280, 1920, 2560, 3840];
+// Panoramas span a whole row, so they need larger candidates than regular photos.
+const maxWidth = (photo: AlbumPhoto) =>
+  Math.min(photo.image.width / photo.image.height > 2 ? 3840 : 1920, photo.image.width);
 const imageSizes = (photo: AlbumPhoto) => {
   const ratio = photo.image.width / photo.image.height;
   return `(min-width: 1440px) ${Math.ceil(460 * ratio)}px, (min-width: 701px) ${Math.ceil(320 * ratio)}px, (min-width: 520px) ${Math.ceil(300 * ratio)}px, calc(100vw - 20px)`;
@@ -53,7 +56,7 @@ const imageSizes = (photo: AlbumPhoto) => {
           src={photo.image}
           alt={photo.alt}
           width={Math.min(960, photo.image.width)}
-          widths={imageWidths.filter((width) => width < Math.min(1920, photo.image.width)).concat(Math.min(1920, photo.image.width))}
+          widths={imageWidths.filter((width) => width < maxWidth(photo)).concat(maxWidth(photo))}
           sizes={`${index < eagerCount ? "" : "auto, "}${imageSizes(photo)}`}
           quality={82}
           decoding="async"
@@ -95,6 +98,7 @@ const imageSizes = (photo: AlbumPhoto) => {
     --padding: var(--gutter);
     --space: 18px;
     --min-height: 240px;
+    --max-height: calc(var(--min-height) * 1.6);
 
     padding: 4px var(--padding);
     display: flex;
@@ -110,6 +114,8 @@ const imageSizes = (photo: AlbumPhoto) => {
   .photo-grid a {
     flex-grow: calc(var(--width) * (100000 / var(--height)));
     flex-basis: calc(var(--min-height) * (var(--width) / var(--height)));
+    /* Stop rows broken early by a wide photo from growing into giant tiles. */
+    max-width: calc(var(--max-height) * var(--width) / var(--height));
     aspect-ratio: var(--width) / var(--height);
     background: var(--surface);
     overflow: hidden;
