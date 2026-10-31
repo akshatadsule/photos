@@ -1,54 +1,6 @@
 {
   "albums": [
     {
-      "slug": "birds",
-      "title": "Bird Watching",
-      "description": "All sorts of birds seen in the wild",
-      "photos": [
-        {
-          "src": "birds/flying-egret.webp",
-          "alt": "A snowy egret taking off"
-        },
-        {
-          "src": "birds/hummingbird.webp",
-          "alt": "A hummingbird caught mid-flight"
-        },
-        {
-          "src": "birds/print-4.jpg",
-          "alt": "An Egret amongst vegetation",
-          "title": "An Egret amongst vegetation"
-        },
-        {
-          "src": "birds/egret-2.webp",
-          "alt": "An egret amongst the bushes"
-        },
-        {
-          "src": "birds/avocet-1.webp",
-          "alt": "An avocet standing in shallow water"
-        },
-        {
-          "src": "birds/egret-1.webp",
-          "alt": "A white egret perched"
-        },
-        {
-          "src": "birds/egret-4.webp",
-          "alt": "A white egret poised near the shoreline"
-        },
-        {
-          "src": "birds/egret-5.webp",
-          "alt": "An egret against a marsh background"
-        },
-        {
-          "src": "birds/egret-6.webp",
-          "alt": "An flying egret"
-        },
-        {
-          "src": "birds/hummingbird-2.webp",
-          "alt": "A hummingbird caught mid-flight"
-        }
-      ]
-    },
-    {
       "slug": "sf",
       "title": "San Francisco",
       "description": "Views from the city and the bay",
@@ -76,6 +28,49 @@
           "src": "sf/sf-4.jpg",
           "alt": "View at Battery Spencer",
           "title": "View at Battery Spencer"
+        }
+      ]
+    },
+    {
+      "slug": "seattle",
+      "title": "Seattle",
+      "description": "Views at Seattle and the Pacific Northwest",
+      "photos": [
+        {
+          "src": "seattle/seattle-5.jpg",
+          "alt": "The city, seen from north Lake Union"
+        },
+        {
+          "src": "seattle/seattle-8.jpg",
+          "alt": "The Space Needle"
+        },
+        {
+          "src": "seattle/seattle-7.jpg",
+          "alt": "View at Kerry park"
+        },
+        {
+          "src": "seattle/seattle-4.jpg",
+          "alt": "A resting Chickadee"
+        },
+        {
+          "src": "seattle/seattle-3.jpg",
+          "alt": "The Olympic Mountains, seen from Mt Rainier"
+        },
+        {
+          "src": "seattle/seattle-6.jpg",
+          "alt": "The Space Needle and Chihuly Fiori"
+        },
+        {
+          "src": "seattle/seattle-1.jpg",
+          "alt": "Waterfall near Lake 22"
+        },
+        {
+          "src": "seattle/seattle-2.jpg",
+          "alt": "Mushrooms near Lake 22"
+        },
+        {
+          "src": "seattle/seattle-9.jpg",
+          "alt": "The Amazon Spheres"
         }
       ]
     },
@@ -123,6 +118,54 @@
           "src": "yellowstone/tetons-3.webp",
           "alt": "A wide view of the Tetons in clean afternoon light",
           "title": "A wide view of the Tetons in clean afternoon light"
+        }
+      ]
+    },
+    {
+      "slug": "birds",
+      "title": "Bird Watching",
+      "description": "All sorts of birds seen in the wild",
+      "photos": [
+        {
+          "src": "birds/flying-egret.webp",
+          "alt": "A snowy egret taking off"
+        },
+        {
+          "src": "birds/hummingbird.webp",
+          "alt": "A hummingbird caught mid-flight"
+        },
+        {
+          "src": "birds/print-4.jpg",
+          "alt": "An Egret amongst vegetation",
+          "title": "An Egret amongst vegetation"
+        },
+        {
+          "src": "birds/egret-2.webp",
+          "alt": "An egret amongst the bushes"
+        },
+        {
+          "src": "birds/avocet-1.webp",
+          "alt": "An avocet standing in shallow water"
+        },
+        {
+          "src": "birds/egret-1.webp",
+          "alt": "A white egret perched"
+        },
+        {
+          "src": "birds/egret-4.webp",
+          "alt": "A white egret poised near the shoreline"
+        },
+        {
+          "src": "birds/egret-5.webp",
+          "alt": "An egret against a marsh background"
+        },
+        {
+          "src": "birds/egret-6.webp",
+          "alt": "An flying egret"
+        },
+        {
+          "src": "birds/hummingbird-2.webp",
+          "alt": "A hummingbird caught mid-flight"
         }
       ]
     },
